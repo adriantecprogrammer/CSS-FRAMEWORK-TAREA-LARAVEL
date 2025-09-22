@@ -7,92 +7,67 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
 
 
 
 </head>
 
 <style>
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        gap: 4px;
-        width: 100%;
-        height: 100%;
-    }
-
-    h1 {
+    span {
         text-align: center;
         font-size: 2rem;
         font-weight: 600;
-        color: #000;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        text-transform: uppercase;
+        color: #fff;
+
     }
 </style>
 
+<body>
 
 
+    <div class="card">
+        <span>
+            HECHA CON BULMA
+        </span>
+        <div class="card-image">
+            <figure class="image is-4by3">
 
-<body class=" p-3  bg-primary-subtle">
+                <img
+                    src="https://i.pinimg.com/736x/87/b2/ef/87b2ef65c5685e15c4eca157357fdf1f.jpg"
+                    alt="Placeholder image" />
+            </figure>
+        </div>
+        <div class="card-content">
 
-
-    <h1>
-        ESTA PAGINA ESTA HECHA CON MATERIALIZE
-    </h1>
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://i.pinimg.com/736x/60/86/01/608601478f57fa75ab245cf8d00057b3.jpg">
-
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
+            <div class="media">
+                <div class="media-left">
+                    <figure class="image is-48x48">
+                        <img
+                            src="https://bulma.io/assets/images/placeholders/96x96.png"
+                            alt="Placeholder image" />
+                    </figure>
+                </div>
+                <div class="media-content">
+                    <p class="title is-4">John Smith</p>
+                    <p class="subtitle is-6">@johnsmith</p>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://i.pinimg.com/736x/c8/f3/2a/c8f32ad440930de7f8fdd3a5f6f65db4.jpg">
 
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m6">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://i.pinimg.com/736x/61/88/b6/6188b66bfbfe2358b3e07f0618424385.jpg">
-
-                        <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
-                    </div>
-                    <div class="card-content">
-                        <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                    </div>
-                </div>
+            <div class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
+                iaculis mauris. <a>@bulmaio</a>. <a href="#">#css</a>
+                <a href="#">#responsive</a>
+                <br />
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
             </div>
         </div>
     </div>
-    </div>
+
+
+
 
 
 
